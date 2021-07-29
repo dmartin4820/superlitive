@@ -1,0 +1,7 @@
+.navbar-collapse {
+	justify-content: flex-end;
+}
+
+.navbar-collapse li{
+	padding: 0 20px;
+}

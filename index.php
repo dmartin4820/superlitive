@@ -9,7 +9,7 @@
 	<title>Document</title>
 </head>
 <body>
-	<div class="page-container">
+	<div class="page-container" style="background-image: url('./assets/images/cannabis_jars.jpg');">
 		<header class="container">
 				<nav class="navbar navbar-expand-lg navbar-light">
 					<div class="container-fluid">
@@ -28,8 +28,6 @@
 					</div>
 				</nav>	
 		</header>
-	</div>
-	<div class="bkg-img-container" style="background-image: url('');">
 		<div class="px-4 py-5 my-5 text-center">
  			<h1 class="display-5 fw-bold">Centered hero</h1>
  			<div class="col-lg-6 mx-auto">

@@ -1,5 +1,5 @@
 .hero {
 	background-image: url('assets/images/cannabis_jars.jpg');
-	background-size: 101% auto;
+	background-size: cover;
 	background-repeat: no-repeat;
 }

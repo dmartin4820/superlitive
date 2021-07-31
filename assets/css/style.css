@@ -1,7 +1,5 @@
-.navbar-collapse {
-	justify-content: flex-end;
-}
-
-.navbar-collapse li{
-	padding: 0 20px;
+.hero {
+	background-image: url('assets/images/cannabis_jars.jpg');
+	background-size: 101% auto;
+	background-repeat: no-repeat;
 }

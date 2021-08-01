@@ -1,32 +1,56 @@
+const images = [
+		"assets/images/PlaceholderLC_1.png",
+		"assets/images/PlaceholderLC_2.png",
+		"assets/images/PlaceholderLC_3.png",
+];
+
+function loop(i, imgEl) {
+	return setInterval(() => {
+		nextSlide(i, imgEl);
+		console.log(i)
+		i++;
+	}, 2000)
+}
+
+
 function slideShow() {
 	const rightArrow = $(".slideshow-arrow-right");
 	const leftArrow = $(".slideshow-arrow-left");
 	const imgEl = $(".slide-image");
-	const images = [
-		"assets/images/PlaceholderLC_1.png",
-		"assets/images/PlaceholderLC_2.png",
-		"assets/images/PlaceholderLC_3.png",
-	];
+	
 
-	let imageIndex = 0;
+	let imagesIndex = 0;
 
 	rightArrow.click(() => {
-		console.log('next')
-		imageIndex++;
-		imgEl.attr("src", images[Math.abs(imageIndex % images.length)]);
+		console.log(imagesIndex, 'next')
+		imagesIndex = Number(imgEl.attr("data-index")) + 1;
+		clearInterval(interval);
+		nextSlide(imagesIndex, imgEl);
+		interval = loop(imagesIndex, imgEl);
 	});
 
-	leftArrow.click(() => {
-		console.log('previous')
-		imageIndex--;
-		
-		imageIndex < 0
-		? imgEl.attr("src", images[images.length + imageIndex % images.length])
-		: imgEl.attr("src", images[imageIndex % images.length])
+	leftArrow.click(getIndex, function(event) {
+		console.log(imgEl.attr("data-index"), 'previous')
+		imagesIndex = Number(imgEl.attr("data-index")) - 1;
+		clearInterval(interval);
+		nextSlide(imagesIndex, imgEl);
+		interval = loop(imagesIndex, imgEl);
 	});
-	
 
-	
+	let interval = loop(imagesIndex, imgEl);
+
+	function getIndex() {
+		return imagesIndex;
+	}
+}
+
+function nextSlide(i, imgEl) {
+	console.log(i, 'enter')
+	i < 0 ? i = (images.length + i % images.length) % images.length : i = i % images.length;	
+
+	console.log(i, 'exit')
+	imgEl.attr("src", images[i]);
+	imgEl.attr("data-index", `${i}`);
 }
 
 slideShow();

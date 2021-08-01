@@ -9,7 +9,7 @@
 			</div>
 			<div class="flex flex-initial items-center w-4/12 py-10 slideshow-image" data-image="1">
 				<button type="button" class="slideshow-arrow-left text-6xl px-5 py-1 mr-5">&#10096;</button>
-				<img src="assets/images/PlaceholderLC_1.png" class="slide-image w-9/12" >
+				<img src="assets/images/PlaceholderLC_1.png" class="slide-image w-9/12" data-index="0">
 				<button class="slideshow-arrow-right text-6xl px-5 py-1 ml-5">&#10097;</button> 
 			</div>
 		</div>

@@ -8,3 +8,7 @@ body, html {
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+
+.slideshow-arrow-right, .slideshow-arrow-left:hover {
+	cursor: pointer;
+}

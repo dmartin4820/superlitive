@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<style><?php include "assets/css/tailwind.css";?></style>
 	<style><?php include "assets/css/style.css";?></style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<title>Superlitive</title>
 </head>
 <body>

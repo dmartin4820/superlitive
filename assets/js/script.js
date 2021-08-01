@@ -22,14 +22,14 @@ function slideShow() {
 	let imagesIndex = 0;
 
 	rightArrow.click(() => {
-		console.log(imagesIndex, 'next')
+		console.log(imgEl.attr("data-index"), 'next')
 		imagesIndex = Number(imgEl.attr("data-index")) + 1;
 		clearInterval(interval);
 		nextSlide(imagesIndex, imgEl);
 		interval = loop(imagesIndex, imgEl);
 	});
 
-	leftArrow.click(getIndex, function(event) {
+	leftArrow.click(() => {
 		console.log(imgEl.attr("data-index"), 'previous')
 		imagesIndex = Number(imgEl.attr("data-index")) - 1;
 		clearInterval(interval);
@@ -38,10 +38,6 @@ function slideShow() {
 	});
 
 	let interval = loop(imagesIndex, imgEl);
-
-	function getIndex() {
-		return imagesIndex;
-	}
 }
 
 function nextSlide(i, imgEl) {

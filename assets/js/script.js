@@ -9,7 +9,7 @@ function loop(i, imgEl) {
 		nextSlide(i, imgEl);
 		console.log(i)
 		i++;
-	}, 2000)
+	}, 15000)
 }
 
 

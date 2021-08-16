@@ -1,5 +1,9 @@
-<?php include "./partials/header.php";?>
-	<div class="hero flex justify-center p-28">
+	<div class="hero p-96">
+		<div class="h-96">
+			<?php include "./partials/header.php";?>		
+		</div>
+	</div>
+	<div class="flex justify-center p-28">
 		<div class="slideshow-container flex justify-around items-center bg-white shadow-2xl rounded-lg">
 			<div class="flex flex-col justify-center items-center w-4/12  py-20 px-10">
 				<!-- <p class="text-4xl inline"> Superlitive is...</p> -->
@@ -9,7 +13,7 @@
 			</div>
 			<div class="flex flex-initial items-center w-4/12 py-10 slideshow-image" data-image="1">
 				<button type="button" class="slideshow-arrow-left text-6xl px-5 py-1 mr-5">&#10096;</button>
-				<img src="assets/images/PlaceholderLC_1.png" class="slide-image w-9/12" data-index="0">
+				<img src="assets/images/IMG_6747.jpg" class="slide-image w-9/12" data-index="0">
 				<button class="slideshow-arrow-right text-6xl px-5 py-1 ml-5">&#10097;</button> 
 			</div>
 		</div>

@@ -7,9 +7,11 @@ body, html {
 }
 
 .hero {
-	background-image: url('assets/images/cannabis_jars.jpg');
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('assets/images/IMG_6764.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: 0% 60%;
+
 }
 
 .slideshow-arrow-right, .slideshow-arrow-left:hover {

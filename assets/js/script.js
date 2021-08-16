@@ -1,7 +1,8 @@
+const slideShowTime = 5; //seconds
 const images = [
-		"assets/images/PlaceholderLC_1.png",
-		"assets/images/PlaceholderLC_2.png",
-		"assets/images/PlaceholderLC_3.png",
+		"assets/images/IMG_6747.jpg",
+		"assets/images/IMG_6754.jpg",
+		"assets/images/IMG_6763.jpg",
 ];
 
 function loop(i, imgEl) {
@@ -9,7 +10,7 @@ function loop(i, imgEl) {
 		nextSlide(i, imgEl);
 		console.log(i)
 		i++;
-	}, 15000)
+	}, slideShowTime * 1000)
 }
 
 

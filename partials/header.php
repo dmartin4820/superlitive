@@ -11,14 +11,14 @@
 </head>
 <body>
 	<header>
-		<nav class="flex flex-col p-5 justify-between items-center">
-			<div class="brand container text-6xl mb-10">
-				<h1 class="text-center">Superlitive</h1>
+		<nav class="flex flex-col p-5 justify-between">
+			<div class="flex justify-center brand container text-6xl mb-10">
+				<h1 class="gold top-header text-center">Super<h1>lit</h1><h1 class="gold">ive</h1>
 			</div>
 			<div class="flex flex-col container justify-center items-center">
 				<div class="nav-bar flex container justify-around md:visible invisible">
 					<a href="./index.php" class="">Home</a>
-					<a href="./about.php" class="">Community</a>
+					<a href="./about.php" class="">Community</a> 
 					<a href="#" class="">Contact</a>
 					<a href="./store.php" class="">Merch</a>
 				</div>

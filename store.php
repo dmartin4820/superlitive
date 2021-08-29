@@ -1,3 +1,3 @@
 <?php include "./partials/header.php";?>
-	Store
+  Store
 <?php include "./partials/footer.php";?>

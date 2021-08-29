@@ -1,0 +1,1 @@
+<?php $cardStyle = "bg-white shadow-2xl rounded-lg" ?>

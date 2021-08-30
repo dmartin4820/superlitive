@@ -15,7 +15,7 @@
       </div>
       <div class="flex justify-content items-center w-5/12 py-10 slideshow-image" data-image="1">
         <button type="button" class="slideshow-arrow-left text-6xl">&#10096;</button>
-        <img src="assets/images/IMG_6747.jpg" class="slide-image w-10/12 m-1" data-index="0">
+        <img src="assets/images/IMG_6747.jpg" class="slide-image m-1" data-index="0" width="600">
         <button class="slideshow-arrow-right text-6xl">&#10097;</button> 
       </div>
     </div>

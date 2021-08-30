@@ -13,5 +13,6 @@
   </footer>
 
   <script src="assets/js/script.js"></script>
+	<script src="assets/js/theme_change.js"></script>
 </body>
 </html>

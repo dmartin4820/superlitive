@@ -1,6 +1,6 @@
   <?php include "./vars/index.php"; ?>
   <?php include "./partials/header.php";?>
-  <div class="index-hero p-96">
+  <div class="index-hero h-5/6">
   </div>
 
 
@@ -36,15 +36,4 @@
   </div>
 
 
-  <!-- <div class="p-20">
-    <div class="flex justify-center">
-      <div class="self-center w-4/12 m-10">
-        <h2 class="text-4xl inline p-20">Our Mission</h2>
-        <p class="pt-10 p-20">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quis facilis est soluta debitis labore amet distinctio asperiores illum quasi reprehenderit corrupti vel atque fugiat excepturi, aliquam harum iste molestiae.
-        </p>
-      </div>
-      <img src="assets/images/PlaceholderLC_1.png" width="500">
-    </div>
-  </div>  -->
 <?php include "./partials/footer.php";?>

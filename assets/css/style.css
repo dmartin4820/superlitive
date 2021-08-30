@@ -3,7 +3,9 @@
   src: url("assets/fonts/Moonrising.ttf");
 }
 :root {
-  --secondaryColor: #ae8625;
+  --black: #000;
+  --white: #fff;
+  --gold: #ae8625;
 }
 
 * {
@@ -15,7 +17,15 @@ p {
 }
 
 .gold {
-  color: var(--secondaryColor);
+  color: var(--gold);
+}
+
+.black {
+  color: var(--black);
+}
+
+.white {
+  color: var(--white);
 }
 
 h1 {
@@ -23,7 +33,7 @@ h1 {
 }
 
 .nav-bar a:hover {
-  color: var(--secondaryColor);
+  color: var(--gold);
 }
 
 
@@ -45,6 +55,26 @@ body, html {
   background-position: 0% 30%;
 }
 
+
+.top-header-default {
+  color: var(--black);
+}
+
+.top-header-white {
+  color: var(--white);
+}
+
+.top-header-middle-default {
+  color: var(--gold);
+}
+
+.nav-link-white {
+  color: var(--white);
+}
+.nav-link-default {
+  color: var(--black);
+}
+
 .slideshow-container {
   height: 700px;
   overflow: hidden;
@@ -55,5 +85,5 @@ body, html {
 }
 
 .footer {
-  background-color: var(--secondaryColor);
+  background-color: var(--gold);
 }

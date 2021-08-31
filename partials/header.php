@@ -20,7 +20,7 @@
           <a href="./index.php" class="nav-link-default" data-theme="nav-link-white">Home</a>
           <a href="./about.php" class="nav-link-default" data-theme="nav-link-white">Community</a> 
           <a href="#" class="nav-link-default" data-theme="nav-link-white">Contact</a>
-          <a href="https://store.superlitiveca.com/index.html" class="nav-link-default" data-theme="nav-link-white">Merch</a>
+          <a href="https://store.superlitiveca.com/checkout.html" class="nav-link-default" data-theme="nav-link-white">Merch</a>
         </div>
         <button type="button">
           <div class="flex flex-col justify-center items-center border rounded-lg w-10 h-10 visible md:invisible">

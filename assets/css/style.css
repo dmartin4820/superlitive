@@ -55,6 +55,17 @@ body, html {
   background-position: 0% 30%;
 }
 
+.gold {
+  color: var(--gold);
+}
+
+.black {
+  color: var(--black);
+}
+
+.white {
+  color: var(--white);
+}
 
 .top-header-default {
   color: var(--gold);

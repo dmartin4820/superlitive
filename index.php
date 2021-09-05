@@ -31,8 +31,8 @@ Life CA, Superlitive provides high potency, indoor grown cannabis at a budget co
         to promote success and growth of a responsible cannabis commUnity
         </p>
       </div>
-      <div class="flex flex-initial justify-content items-center w-4/12 py-10">
-        <img src="assets/images/PlaceholderLC_1.png" class="w-10/12">
+      <div class="flex flex-initial justify-content items-center py-10">
+        <img src="assets/images/IMG_6814.jpg" width="600" >
       </div>
     </div>
   </div>

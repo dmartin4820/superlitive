@@ -7,7 +7,10 @@
         <li><a href="./contact.php">Contact</a></li>
       </ul>
       <div>
-        <img src="assets/images/IMG_6775.jpg" width="500"class="w-48">
+        <div class="flex justify-center items-center brand container text-6xl mb-10">
+        <img src="assets/images/superlitive_logo.png" width="100" />
+        <h1 class="text-center black">Super<h1 class="white">lit</h1><h1 class="text-center black">ive</h1>
+      </div>  
       </div>
     </div>
   </footer>

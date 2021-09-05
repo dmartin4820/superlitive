@@ -7,7 +7,7 @@
         <li><a href="./contact.php">Contact</a></li>
       </ul>
       <div>
-        <img src="assets/images/PlaceholderLC_1.png" class="w-48">
+        <img src="assets/images/IMG_6775.jpg" width="500"class="w-48">
       </div>
     </div>
   </footer>

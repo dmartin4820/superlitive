@@ -10,6 +10,7 @@ function themeChange() {
     const navBarContainerTheme = navBarContainer.attr("data-theme");
     const navLinkTheme = navLink.attr("data-theme");
 		const themeChangerTheme = themeChanger.attr("data-theme");
+    const topHeaderMiddleTheme = topHeaderMiddle.attr("data-theme");
 
 		console.log(themeChangerTheme)
 
@@ -20,7 +21,9 @@ function themeChange() {
     navBarContainer.attr('data-theme', `${navBarContainer.attr('class')}`);
     navLink.attr('data-theme', `${navLink.attr('class')}`);
 		themeChanger.attr('data-theme', `${themeChanger.attr('class')}`);
+    topHeaderMiddle.attr('data-theme', `${topHeaderMiddle.attr('class')}`);
 
+    topHeaderMiddle.attr('class', `${topHeaderMiddleTheme}`);
     topHeader.attr('class', `${topHeaderTheme}`);
     navBarContainer.attr('class', `${navBarContainerTheme}`);  
     navLink.attr('class', `${navLinkTheme}`);

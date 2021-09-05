@@ -4,7 +4,7 @@
         <li><a href="./about.php">About</a></li>
         <li><a href="#">Meet The Team</a></li>
         <li><a href="#">Partnerships</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="./contact.php">Contact</a></li>
       </ul>
       <div>
         <img src="assets/images/PlaceholderLC_1.png" class="w-48">

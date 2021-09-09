@@ -12,9 +12,9 @@
 <body>
   <header>
     <nav class="flex flex-col p-5 items-center justify-between nav-bar-container-default" data-theme="flex flex-col p-5 items-center justify-between bg-black">
-      <div class="flex justify-center items-center brand container text-6xl mb-10">
-        <img src="assets/images/superlitive_logo.png" width="100" />
-        <h1 class="text-center top-header-default" data-theme="text-center top-header-white">Super<h1 class="top-header-middle-default" data-theme="top-header-middle-gold">lit</h1><h1 class="text-center top-header-default" data-theme="text-center top-header-white">ive</h1>
+      <div class="flex justify-center items-center brand container text-6xl mb-10 mx-2">
+        <img class="superlitive-logo" src="assets/images/superlitive_logos/Black Superlitive Logo.png" data-img="assets/images/superlitive_logos/White Superlitive Logo.png" width="80" alt="superlitive logo"/>
+        <h1 class="text-center gold" data-theme="text-center white">Super<h1 class="black" data-theme="white">lit</h1><h1 class="text-center gold" data-theme="text-center white">ive</h1>
       </div>
       <div class="flex flex-col container justify-center items-center">
         <div class="nav-bar flex container justify-around md:visible invisible">

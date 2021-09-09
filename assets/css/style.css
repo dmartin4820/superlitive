@@ -45,7 +45,7 @@ body, html {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('assets/images/IMG_6768.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0% 60%;
+  background-position: 0% 30%;
 }
 
 .about-hero {
@@ -100,5 +100,5 @@ body, html {
 }
 
 .footer {
-  background-color: var(--gold);
+  background-color: var(--white);
 }

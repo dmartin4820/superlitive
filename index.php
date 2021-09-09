@@ -23,7 +23,7 @@ Life CA, Superlitive provides high potency, indoor grown cannabis at a budget co
     </div>
   </div>
 
-  <div class="flex justify-center p-28">
+  <div class="flex justify-center p-28 w-100%">
     <?php echo "<div class='flex justify-around items-center $cardStyle'>";?>
       <div class="flex flex-col justify-center items-center w-6/12  py-20 px-10">
         <h2 class="text-4xl inline p-20">Our Mission is... </h2>
@@ -32,7 +32,7 @@ Life CA, Superlitive provides high potency, indoor grown cannabis at a budget co
         </p>
       </div>
       <div class="flex flex-initial justify-content items-center py-10">
-        <img src="assets/images/IMG_6814.jpg" width="600" >
+        <img src="assets/images/IMG_6814.jpg" width="600">
       </div>
     </div>
   </div>

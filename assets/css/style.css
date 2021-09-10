@@ -95,21 +95,6 @@ body {
   color: var(--black);
 }
 
-@media screen and (max-width: 768px) {
-  .nav-link-default {
-    display: none;
-  }
-  .superlitive-logo {
-    width: 60px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .nav-bar-container-default {
-    /* flex-direction: column; */
-  }
-}
-
 .card-container {
   height: 700px;
   width: 1680px;
@@ -124,3 +109,23 @@ body {
   background-color: var(--white);
 }
 
+@media screen and (max-width: 1024px) {
+  .card-container {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-link-default {
+    display: none;
+  }
+  .superlitive-logo {
+    width: 60px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .nav-bar-container-default {
+    /* flex-direction: column; */
+  }
+}

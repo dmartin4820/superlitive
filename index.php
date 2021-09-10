@@ -6,8 +6,8 @@
 
 
   <div class="flex justify-center p-28">
-    <?php echo "<div class='slideshow-container flex items-center $cardStyle'>";?>
-      <div class="flex flex-col justify-center items-center w-6/12  py-20">
+    <?php echo "<div class='card-container flex items-center $cardStyle w-70%'>";?>
+      <div class="flex flex-col justify-center items-center w-6/12  py-20 px-10">
         <h2 class="text-4xl inline"> Superlitive is...</h2>
         <p class="p-10">
         a woman owned cannabis brand that encourages life to be experienced at its highest degree
@@ -23,8 +23,8 @@ Life CA, Superlitive provides high potency, indoor grown cannabis at a budget co
     </div>
   </div>
 
-  <div class="flex justify-center p-28 w-100%">
-    <?php echo "<div class='flex justify-around items-center $cardStyle'>";?>
+  <div class="flex justify-center p-28">
+    <?php echo "<div class='card-container flex justify-around items-center $cardStyle'>";?>
       <div class="flex flex-col justify-center items-center w-6/12  py-20 px-10">
         <h2 class="text-4xl inline p-20">Our Mission is... </h2>
         <p class="pt-10 p-20">

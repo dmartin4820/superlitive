@@ -12,6 +12,7 @@
   font-family: "moonRising";
 }
 
+
 p {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -36,10 +37,14 @@ h1 {
   color: var(--gold);
 }
 
-
 body, html {
   height: 100%;
 }
+
+body {
+  min-width: 630px;
+}
+
 
 .index-hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('assets/images/IMG_6768.jpg');
@@ -90,8 +95,24 @@ body, html {
   color: var(--black);
 }
 
-.slideshow-container {
+@media screen and (max-width: 768px) {
+  .nav-link-default {
+    display: none;
+  }
+  .superlitive-logo {
+    width: 60px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .nav-bar-container-default {
+    /* flex-direction: column; */
+  }
+}
+
+.card-container {
   height: 700px;
+  width: 1680px;
   overflow: hidden;
 }
 
@@ -102,3 +123,4 @@ body, html {
 .footer {
   background-color: var(--white);
 }
+

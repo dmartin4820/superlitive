@@ -43,16 +43,12 @@ body, html {
   padding: 0;
 }
 
-body {
-  /* min-width: 630px; */
-}
-
 
 .index-hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('assets/images/IMG_6768.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0% 30%;
+  background-position: 0% 45%;
 }
 
 .about-hero {
@@ -119,6 +115,11 @@ body {
   .card-container {
     height: auto;
   }
+  body, html {
+    height: 67%;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -126,7 +127,8 @@ body {
     background-position: 60% 30%
   }
   .about-hero {
-    background-position: 40% 30%;
+    background-size: cover;
+    background-position: 40% 0%;
   }
   .nav-link-default {
     display: none;

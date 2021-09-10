@@ -1,3 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+  <style><?php include "assets/css/tailwind.css";?></style>
+  <style><?php include "assets/css/style.css";?></style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <title>Superlitive</title>
+</head>
+
 <body>
   <header class="bg-white">
     <nav class="flex flex-row md:flex-col p-5 items-center sm:justify-between nav-bar-container-default" data-theme="flex flex-col p-5 items-center justify-between bg-black">

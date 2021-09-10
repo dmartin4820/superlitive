@@ -1,15 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, user-scalable, initial-scale=1, maximum-scale=1">
-  <style><?php include "assets/css/tailwind.css";?></style>
-  <style><?php include "assets/css/style.css";?></style>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <title>Superlitive</title>
-</head>
-
   <?php include "./vars/index.php"; ?>
   <?php include "./partials/header.php";?>
   <div class="index-hero h-5/6">

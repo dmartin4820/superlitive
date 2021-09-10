@@ -33,11 +33,9 @@ h1 {
   display: inline;
 }
 
-.nav-bar {
-  max-height: 0;
-  overflow: hidden;
+/* .nav-bar {
   transition: max-height 0.1s ease-out;
-}
+} */
 .nav-bar a:hover {
   color: var(--gold);
 }
@@ -138,6 +136,9 @@ body, html {
   
   .nav-bar {
     flex-direction: column;
+    max-height: 0;
+    overflow: hidden;
+    transition: 'max-height' 0.1s ease-out;
   }
   .nav-link-default {
   }

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=630, initial-scale=1, maximum-scale=1.0">
+  <meta name="viewport" content="width=630, initial-scale=0.56, maximum-scale=1.0, minimum-scale=0.46">
   <style><?php include "assets/css/tailwind.css";?></style>
   <style><?php include "assets/css/style.css";?></style>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

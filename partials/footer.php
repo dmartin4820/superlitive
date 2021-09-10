@@ -14,7 +14,8 @@
     </div>
   </footer>
 
-  <script src="assets/js/script.js"></script>
+  <script src="assets/js/mobile_nav_action.js"></script>
+  <script src="assets/js/slideshow.js"></script>
 	<script src="assets/js/theme_change.js"></script>
 </body>
 </html>

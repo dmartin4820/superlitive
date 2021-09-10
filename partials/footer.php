@@ -2,6 +2,7 @@
     <div class="flex flex-col md:flex-row justify-evenly p-10 footer-content" data-theme="flex justify-evenly p-10 bg-black">
       <ul class="flex flex-row md:flex-col h-8 md:h-32 justify-between md:pl-20">
         <!-- <li><a class="black" data-theme="white" href="./about.php">About</a></li> -->
+        <li><a class="black" data-theme="white" href="./index.php">Home</a></li>
         <li><a class="black" data-theme="white" href="./about.php">Community</a></li>
         <li><a class="black" data-theme="white" href="./contact.php">Contact</a></li>
         <li><a class="black" data-theme="white" href="#">Partnerships</a></li>

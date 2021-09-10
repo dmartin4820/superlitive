@@ -3,9 +3,9 @@
 <div class="about-hero h-5/6">
 </div>
 
-<div class="flex justify-center p-28">
+<div class="flex justify-center p-10 md:p-28">
     <?php echo "<div class='flex flex-col items-center $cardStyle'>";?>
-      <div class="flex flex-col items-center w-6/12 py-10">
+      <div class="flex flex-col items-center w-9/12 md:w-6/12 py-10">
         <h2 class="self-start text-6xl inline py-5">Community</h2>
         <img src="assets/images/IMG_6848.jpg" width="1000">
         <p class="pt-10">

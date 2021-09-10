@@ -109,6 +109,10 @@ body {
   background-color: var(--white);
 }
 
+.social-logo {
+  width: 50px;
+}
+
 @media screen and (max-width: 1024px) {
   .card-container {
     height: auto;
@@ -116,11 +120,21 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  .index-hero {
+    background-position: 60% 30%
+  }
+  .about-hero {
+    background-position: 40% 30%;
+  }
   .nav-link-default {
     display: none;
   }
   .superlitive-logo {
     width: 60px;
+  }
+
+  .social-logo {
+    width: 100px;
   }
 }
 

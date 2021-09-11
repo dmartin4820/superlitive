@@ -5,9 +5,10 @@
         <li><a class="black" data-theme="white" href="./index.php">Home</a></li>
         <li><a class="black" data-theme="white" href="./about.php">Community</a></li>
         <li><a class="black" data-theme="white" href="./contact.php">Contact</a></li>
+        <li><a class="black" data-theme="white" href="./store.php">Merch</a></li>
         <li><a class="black" data-theme="white" href="#">Partnerships</a></li>
       </ul>
-      <div class="flex justify-center items-center brand container text-6xl mt-4 md:mb-10 md: mx-2">
+      <div class="flex justify-center items-center brand text-6xl mt-4 md:mb-10 md: mx-2">
         <img class="superlitive-logo" src="assets/images/superlitive_logos/superlitive_black.svg" data-img="assets/images/superlitive_logos/Black Superlitive Logo.png"width="80" />
         <h1 class="text-center gold">Super<h1 class="black" data-theme="white">lit</h1><h1 class="text-center gold">ive</h1>
       </div>  

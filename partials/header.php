@@ -30,7 +30,8 @@
           <a href="./index.php" class="nav-link-default my-2 md:my-0 text-3xl text-center md:text-base" data-theme="nav-link-white">Home</a>
           <a href="./about.php" class="nav-link-default my-2 md:my-0 text-3xl text-center md:text-base" data-theme="nav-link-white">Community</a> 
           <a href="./contact.php" class="nav-link-default my-2 md:my-0 text-3xl text-center md:text-base" data-theme="nav-link-white">Contact</a>
-          <a href="https://store.superlitiveca.com/checkout.html" class="nav-link-default my-2 md:my-0 text-3xl text-center md:text-base" data-theme="nav-link-white">Merch</a>
+          <a href="./store.php" class="nav-link-default my-2 md:my-0 text-3xl text-center md:text-base" data-theme="nav-link-white">Merch</a>
+          <!-- https://store.superlitiveca.com/checkout.html  -->
         </div>
       </div>
     </nav>

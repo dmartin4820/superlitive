@@ -1,6 +1,9 @@
 const slideShowTime = 5; //seconds
 const images = [
 		"assets/images/IMG_6747.jpg",
+    "assets/images/IMG_6791.jpg",
+    "assets/images/IMG_6775.jpg",
+    "assets/images/IMG_6799.jpg",
 		"assets/images/IMG_6754.jpg",
 		"assets/images/IMG_6763.jpg",
 		"assets/images/IMG_6794.jpg"

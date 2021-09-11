@@ -18,10 +18,10 @@
         <img class="superlitive-logo" src="assets/images/superlitive_logos/superlitive_white.svg" data-img="assets/images/superlitive_logos/White Superlitive Logo.png" width="80" alt="superlitive logo"/>
         <a href="./index.php"><h1 class="text-center gold" data-theme="text-center white">Super<h1 class="white" data-theme="white">lit</h1><h1 class="text-center gold" data-theme="text-center white">ive</h1></a>
         <button class="nav-btn visible ml-10 md:hidden" type="button">
-          <div class="flex flex-col justify-center items-center border-black border-2 rounded-lg w-14 h-14 md:w-10 md:h-10 visible md:hidden">
-            <div class="bg-black rounded-md w-6 h-0.5 my-0.5"></div>
-            <div class="bg-black rounded-md w-6 h-0.5 my-0.5"></div>
-            <div class="bg-black rounded-md w-6 h-0.5 my-0.5"></div>
+          <div class="flex flex-col justify-center items-center border-white border-2 rounded-lg w-14 h-14 md:w-10 md:h-10 visible md:hidden">
+            <div class="bg-white rounded-md w-6 h-0.5 my-0.5"></div>
+            <div class="bg-white rounded-md w-6 h-0.5 my-0.5"></div>
+            <div class="bg-white rounded-md w-6 h-0.5 my-0.5"></div>
           </div>
         </button> 
       </div>

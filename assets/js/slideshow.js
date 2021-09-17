@@ -9,10 +9,10 @@ const images = [
 		"assets/images/IMG_6794.jpg"
 ];
 
+//Continuous loop each slideShowTime seconds
 function loop(i, imgEl) {
 	return setInterval(() => {
 		nextSlide(i, imgEl);
-		// console.log(i)
 		i++;
 	}, slideShowTime * 1000)
 }
@@ -26,7 +26,7 @@ function slideShow() {
 
 	let imagesIndex = 0;
 
-	rightArrow.click(() => {
+	rightArrow.click(() => {//Increment in images array when right arrow clicked
 		// console.log(imgEl.attr("data-index"), 'next')
 		imagesIndex = Number(imgEl.attr("data-index")) + 1;
 		clearInterval(interval);
@@ -34,7 +34,7 @@ function slideShow() {
 		interval = loop(imagesIndex, imgEl);
 	});
 
-	leftArrow.click(() => {
+	leftArrow.click(() => {//Decrement in images array when left arrow clicked
 		// console.log(imgEl.attr("data-index"), 'previous')
 		imagesIndex = Number(imgEl.attr("data-index")) - 1;
 		clearInterval(interval);
@@ -45,11 +45,13 @@ function slideShow() {
 	let interval = loop(imagesIndex, imgEl);
 }
 
+//Logic for displaying next slide
 function nextSlide(i, imgEl) {
-	// console.log(i, 'enter')
-	i < 0 ? i = (images.length + i % images.length) % images.length : i = i % images.length;	
+	i < 0 
+    ? i = (images.length + i % images.length) % images.length //transform negative index to positive index 
+    : i = i % images.length;
 
-	// console.log(i, 'exit')
+  //Change src and data-index to reflect current element in images array
 	imgEl.attr("src", images[i]);
 	imgEl.attr("data-index", `${i}`);
 }

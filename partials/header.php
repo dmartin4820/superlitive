@@ -30,10 +30,10 @@
       <div class="flex flex-col md:container mt-4 justify-center items-center">
         <div class="nav-bar flex container justify-around">
           <?php
-            echo '<a href="./index.php" class=' . $homeLinkStyle . 'data-theme="nav-link-white">Home</a>';
-            echo '<a href="./about.php" class=' . $aboutLinkStyle . 'data-theme="nav-link-white">Community</a>';
-            echo '<a href="./contact.php" class=' . $contactLinkStyle . 'data-theme="nav-link-white">Contact</a>';
-            echo "<a href=$storeLink class=" . $storeLinkStyle . "data-theme='nav-link-white'>Merch</a>";
+            echo "<a href='./index.php' class='" . $homeLinkStyle . "'>Home</a>";
+            echo '<a href="./about.php" class="' . $aboutLinkStyle .'">Community</a>';
+            echo '<a href="./contact.php" class="' . $contactLinkStyle .'">Contact</a>';
+            echo "<a href=$storeLink class='$storeLinkStyle'>Merch</a>";
           ?>
           <?php
             if(!$isCartEmpty) {

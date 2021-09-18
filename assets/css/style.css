@@ -99,12 +99,9 @@ body, html {
 
 .cart {
   font-size: 24px;
-  color: var(--white);
+  /* color: var(--white); */
 }
 
-.cart-active {
-  color: var(--gold);
-}
 
 .card-container {
   height: 700px;

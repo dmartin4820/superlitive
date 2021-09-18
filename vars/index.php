@@ -5,6 +5,7 @@
   $homeLink = "index.php";
   $aboutLink = "about.php";
   $contactLink = "contact.php";
+  $cartLink = "cart.php";
 
 
   if ($_SERVER['SERVER_NAME'] === "localhost") {
@@ -16,13 +17,14 @@
   $location = $location[sizeof($location) - 1];
 
 
-  $navLinkStyle = "nav-link-default my-2 md:my-0 text-3xl text-center md:text-base white";
-  $navLinkActive = "gold my-2 md:my-0 text-3xl text-center md:text-base white";
+  $navLinkStyle = "nav-link-default my-2 md:my-0 text-3xl text-center md:text-base";
+  $navLinkActive = "gold my-2 md:my-0 text-3xl text-center md:text-base";
 
   $homeLinkStyle = $navLinkStyle;
   $aboutLinkStyle = $navLinkStyle;
   $contactLinkStyle = $navLinkStyle;
   $storeLinkStyle = $navLinkStyle;
+  $cartLinkStyle = $navLinkStyle;
 
   switch ($location) {
     case $homeLink:
@@ -36,6 +38,9 @@
       break;
     case $storeLink:
       $storeLinkStyle = $navLinkActive;
+      break;
+    case $cartLink:
+      $cartLinkStyle = $navLinkActive;
     default:
       break;
   }

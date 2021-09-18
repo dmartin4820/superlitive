@@ -37,7 +37,7 @@
           ?>
           <?php
             if(!$isCartEmpty) {
-              echo "<a href='./cart.php' class='nav-link-default my-2 md:my-0 text-3xl text-center md:text-base white' data-theme='nav-link-white'><i class='fas fa-shopping-cart cart'></i></a>";
+              echo "<a href='./cart.php' class='$cartLinkStyle'><i class='fas fa-shopping-cart cart'></i></a>";
             }
           ?> 
           <!-- https://store.superlitiveca.com/checkout.html  -->

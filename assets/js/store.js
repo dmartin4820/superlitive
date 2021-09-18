@@ -1,18 +1,18 @@
-import products from './products.js'
+import products from './products_.js'
 
 function createCard(product) {
   const container = $('<div>')
   
   const img = $('<img>')
   img.attr('src', 'assets/images/PlaceholderLC_1.png')
-  img.attr('width', '200')
+  img.attr('width', '300')
 
   const detailContainer = $('<div>')
   const priceEl = $('<p>')
-  const nameEl = $('<p>')
+  const nameEl = $('<h2>')
   priceEl.html(`$${product.price}`)
   nameEl.html(`${product.name}`)
-  detailContainer.attr('class', 'flex flex-col items-center')
+  detailContainer.attr('class', 'flex flex-col content-evenly items-center')
   detailContainer.append(nameEl)
   detailContainer.append(priceEl)
 
@@ -22,7 +22,7 @@ function createCard(product) {
 
   const addBtn = $('<button>')
   addBtn.html('Add To Cart')
-  addBtn.attr('class', 'border-2 border-black rounded-lg')
+  addBtn.attr('class', 'border-2 border-black rounded-lg hover:bg-black hover:text-white')
 
   container.append(addBtn)
 
@@ -31,7 +31,8 @@ function createCard(product) {
 
 function displayCards() {
   const productContainer = $('#product-container')
-  
+ 
+  console.log(products)
   for (let i = 0; i < products.length; i++) {
     const card = createCard(products[i])
     productContainer.append(card)
@@ -40,7 +41,7 @@ function displayCards() {
 
 const location = window.location.pathname.split('/'); 
 
-//Grab product-container only if it exists
+//Display cards only if product-container exists
 if (location[location.length - 1] === 'store_.php') {
   displayCards();
 }

@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel='icon' type="image/png" href="assets/images/superlitive_logos/superlitive_white.png"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <meta name="viewport" content="width=630, initial-scale=0.56, maximum-scale=1.0, minimum-scale=0.46">
   <style><?php include "assets/css/tailwind.css";?></style>
   <style><?php include "assets/css/style.css";?></style>
@@ -12,6 +13,7 @@
 </head>
 
 <body>
+  <?php include "./vars/index.php"; ?>
   <header class="bg-white">
     <nav class="flex flex-col p-5 items-center sm:justify-between nav-bar-container-default bg-black" data-theme="flex flex-col p-5 items-center justify-between bg-black">
       <div class="flex justify-center items-center brand container text-6xl">
@@ -27,10 +29,17 @@
       </div>
       <div class="flex flex-col md:container mt-4 justify-center items-center">
         <div class="nav-bar flex container justify-around">
-          <a href="./index.php" class="nav-link-default my-2 md:my-0 text-3xl text-center md:text-base white" data-theme="nav-link-white">Home</a>
-          <a href="./about.php" class="nav-link-default my-2 md:my-0 text-3xl text-center md:text-base white" data-theme="nav-link-white">Community</a> 
-          <a href="./contact.php" class="nav-link-default my-2 md:my-0 text-3xl text-center md:text-base white" data-theme="nav-link-white">Contact</a>
-          <a href="./store_.php" class="nav-link-default my-2 md:my-0 text-3xl text-center md:text-base white" data-theme="nav-link-white">Merch</a>
+          <?php
+            echo '<a href="./index.php" class=' . $homeLinkStyle . 'data-theme="nav-link-white">Home</a>';
+            echo '<a href="./about.php" class=' . $aboutLinkStyle . 'data-theme="nav-link-white">Community</a>';
+            echo '<a href="./contact.php" class=' . $contactLinkStyle . 'data-theme="nav-link-white">Contact</a>';
+            echo "<a href=$storeLink class=" . $storeLinkStyle . "data-theme='nav-link-white'>Merch</a>";
+          ?>
+          <?php
+            if(!$isCartEmpty) {
+              echo "<a href='./cart.php' class='nav-link-default my-2 md:my-0 text-3xl text-center md:text-base white' data-theme='nav-link-white'><i class='fas fa-shopping-cart cart'></i></a>";
+            }
+          ?> 
           <!-- https://store.superlitiveca.com/checkout.html  -->
         </div>
       </div>

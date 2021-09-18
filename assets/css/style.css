@@ -40,6 +40,7 @@ h1 {
   color: var(--gold);
 }
 
+
 body, html {
   height: 100%;
   margin: 0;
@@ -96,6 +97,15 @@ body, html {
   color: var(--white);
 }
 
+.cart {
+  font-size: 24px;
+  color: var(--white);
+}
+
+.cart-active {
+  color: var(--gold);
+}
+
 .card-container {
   height: 700px;
   width: 1680px;
@@ -108,6 +118,16 @@ body, html {
 
 .footer {
   background-color: var(--white);
+}
+
+.footer-link {
+  color: var(--white);
+}
+.footer-link-active:hover {
+  color: var(--gold);
+}
+.footer-link-active {
+  color: var(--gold);
 }
 
 .social-logo {

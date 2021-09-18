@@ -1,4 +1,3 @@
-  <?php include "./vars/index.php"; ?>
   <?php include "./partials/header.php";?>
   <div class="index-hero h-full">
   </div>

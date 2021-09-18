@@ -42,6 +42,6 @@ function displayCards() {
 const location = window.location.pathname.split('/'); 
 
 //Display cards only if product-container exists
-if (location[location.length - 1] === 'store_.php') {
+if (location[location.length - 1] === 'store_prod.php') {
   displayCards();
 }

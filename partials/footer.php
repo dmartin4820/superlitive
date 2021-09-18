@@ -5,7 +5,11 @@
         <li><a class="white" data-theme="white" href="./index.php">Home</a></li>
         <li><a class="white" data-theme="white" href="./about.php">Community</a></li>
         <li><a class="white" data-theme="white" href="./contact.php">Contact</a></li>
-        <li><a class="white" data-theme="white" href="./store.php">Merch</a></li>
+        <li>
+          <?php 
+            echo "<a href=$storeLink class='white'>Merch</a>";
+          ?>
+        </li>
         <li><a class="white" data-theme="white" href="#">Partnerships</a></li>
       </ul>
       <div class="flex justify-center items-center brand text-6xl mt-4 md:mb-10 md: mx-2">
@@ -16,8 +20,12 @@
   </footer>
 
   <script src="assets/js/mobile_nav_action.js"></script>
-  <script src="assets/js/slideshow.js"></script>
 	<script src="assets/js/theme_change.js"></script>
-  <script type="module" src="assets/js/store.js"></script>
+  <?php   if ($location === $homeLink) {
+            echo '<script src="assets/js/slideshow.js"></script>';
+          } else if ($location === $storeLink) {
+            echo '<script type="module" src="assets/js/store.js"></script>';
+          }
+  ?>
 </body>
 </html>

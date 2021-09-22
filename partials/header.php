@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <?php include "./vars/index.php"; ?>
+  <?php include "./vars/index.php";?> 
   <header class="bg-white">
     <nav class="flex flex-col p-5 items-center sm:justify-between nav-bar-container-default bg-black" data-theme="flex flex-col p-5 items-center justify-between bg-black">
       <div class="flex justify-center items-center brand container text-6xl">
@@ -37,7 +37,7 @@
           ?>
           <?php
             if(!$isCartEmpty) {
-              echo "<a href='./cart.php' class='$cartLinkStyle'><i class='fas fa-shopping-cart cart'></i></a>";
+              echo "<a href=./$cartLink class='$cartLinkStyle'><i class='fas fa-shopping-cart cart'></i></a>";
             }
           ?> 
           <!-- https://store.superlitiveca.com/checkout.html  -->

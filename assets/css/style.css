@@ -47,6 +47,11 @@ body, html {
   padding: 0;
 }
 
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 
 .index-hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('assets/images/IMG_6768.jpg');
@@ -115,6 +120,7 @@ body, html {
 
 .footer {
   background-color: var(--white);
+  margin-top: auto;
 }
 
 .footer-link {

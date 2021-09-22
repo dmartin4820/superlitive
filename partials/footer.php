@@ -19,13 +19,23 @@
     </div>
   </footer>
 
+  <?php echo $location . $cartLink?>
   <script src="assets/js/mobile_nav_action.js"></script>
 	<script src="assets/js/theme_change.js"></script>
-  <?php   if ($location === $homeLink) {
-            echo '<script src="assets/js/slideshow.js"></script>';
-          } else if ($location === $storeLink) {
-            echo '<script type="module" src="assets/js/store.js"></script>';
-          }
+  <?php  
+    switch($location) {
+      case $homeLink:
+        echo '<script src="assets/js/slideshow.js"></script>';
+        break;
+      case $storeLink:
+        echo '<script type="module" src="assets/js/store.js"></script>';
+        break;
+      case $cartLink:
+        echo '<script src="assets/js/cart.js"></script>';
+        break;
+      default:
+        echo '';
+    } 
   ?>
 </body>
 </html>

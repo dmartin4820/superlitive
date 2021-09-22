@@ -9,9 +9,11 @@
 
 
   if ($_SERVER['SERVER_NAME'] === "localhost") {
-    $storeLink = 'store_prod.php'; 
+    $storeLink = 'store_prod.php';
+    $cartLink = 'cart.php' ;
   } else {
     $storeLink = 'store.php';
+    $cartLink = 'store.php';
   }
   $location = explode('/', $_SERVER['PHP_SELF']);
   $location = $location[sizeof($location) - 1];

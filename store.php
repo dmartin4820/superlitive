@@ -1,4 +1,3 @@
-<?php include "./vars/index.php"; ?>
 <?php include "./partials/header.php";?>
 
 <div class="flex justify-center p-10 md:p-28">

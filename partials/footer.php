@@ -19,7 +19,6 @@
     </div>
   </footer>
 
-  <?php echo $location . $cartLink?>
   <script src="assets/js/mobile_nav_action.js"></script>
 	<script src="assets/js/theme_change.js"></script>
   <?php  

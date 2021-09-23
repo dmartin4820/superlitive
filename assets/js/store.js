@@ -1,14 +1,16 @@
-import products from './products_.js'
+import products from './products.js'
 
 let productData = products;
 
+//Create error msg if user enters a invalid number for quantity
 function displayError() {
   const errorMsg = $('<p>')
   errorMsg.html('Quantity must be between 1 and 100')
   return errorMsg
 }
 
-function addToCart(addBtn, container) {
+//handle adding items to the cart
+function addToCart(addBtn) {
   const cart = JSON.parse(localStorage.getItem('cart'))
   const product = productData[addBtn.parent()["0"].id]
   
@@ -75,11 +77,12 @@ function addToCart(addBtn, container) {
   return quantity
 }
 
+//create individual cards for each product
 function createCard(product, i) {
   const container = $('<div>')
   
   const img = $('<img>')
-  img.attr('src', 'assets/images/PlaceholderLC_1.png')
+  img.attr('src',`${product.img}`)
   img.attr('width', '400')
 
   const detailContainer = $('<div>')

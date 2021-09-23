@@ -54,6 +54,7 @@ body {
 }
 
 .index-hero {
+  flex: 0 0.1 auto;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('assets/images/IMG_6768.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -61,6 +62,7 @@ body {
 }
 
 .about-hero {
+  flex: 0 0.1 auto;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('assets/images/IMG_6872.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -138,33 +140,30 @@ body {
 }
 
 @media screen and (max-width: 1024px) {
-  .card-container {
-    height: auto;
-  }
   body, html {
     height: 67%;
     margin: 0;
     padding: 0;
   }
-}
-
-@media screen and (max-width: 768px) {
   .index-hero {
+    flex: 0 0.3 auto;
     background-position: 60% 30%
   }
   .about-hero {
+    flex: 0 0.5 auto;
     background-size: cover;
     background-position: 40% 0%;
   }
-  
+}
+
+@media screen and (max-width: 768px) {
   .nav-bar {
     flex-direction: column;
     max-height: 0;
     overflow: hidden;
     transition: 'max-height' 0.1s ease-out;
   }
-  .nav-link-default {
-  }
+  
   .superlitive-logo {
     width: 60px;
   }
@@ -172,10 +171,9 @@ body {
   .social-logo {
     width: 100px;
   }
-}
 
-@media screen and (max-width: 400px) {
-  .nav-bar-container-default {
-    /* flex-direction: column; */
+  .card-container {
+    height: 1050px;
   }
 }
+

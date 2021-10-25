@@ -1,3 +1,6 @@
+import Element from '@dmartin4820/html-element'
+
+
 function getCartItems() {
   const cart = JSON.parse(localStorage.getItem('cart'))
 
@@ -9,22 +12,28 @@ function getCartItems() {
 }
 
 function createCard(itemObj) {
-  const card = $('<div>')
-  card.attr('class', 'flex py-10')
+  const {element: card} = new Element('div', {
+    class: 'flex py-10'
+  })
 
-  const img = $('<img>')
-  img.attr('src', `${itemObj.img}` )
-  img.attr('width', '200')
+  const {element: img} = new Element('img', {
+    src: `${itemObj.img}`,
+    width: '200',
+  })
 
-  const item = $('<div>')
-  item.attr('class', 'flex flex-col pl-10')
+  const {element: item} = new Element('div', {
+    class: "flex flex-col pl-10"
+  })
 
-  const itemName = $('<h3>')
-  itemName.html(`${itemObj.name}`)
-  itemName.attr('class', 'text-2xl')
+  const {element: itemName} = new Element('h3', {
+    class: "text-2xl"
+  })
+  itemName.innerHTML = `${itemObj.name}`
 
-  const price = $('<p>')
-  price.html(`${itemObj.price} x ${itemObj.quantity}`)
+  const {element: price} = new Element('p')
+  price.innerHTML = `${itemObj.price} x ${itemObj.quantity}` 
+  // const price = $('<p>')
+  // price.html(`${itemObj.price} x ${itemObj.quantity}`)
 
   item.append(itemName)
   item.append(price)
@@ -49,6 +58,31 @@ function displayCards() {
 
   const cartTotal = $('#cart-total')
   cartTotal.html(`Total: $ ${total.toFixed(2)}`)
+
+  const checkoutBtn = $('#checkout-btn')
+  checkoutBtn.click(() => {
+    const message = goToCheckout()
+    if (message) {
+      cartEl.parent().append(message)
+    }
+  })
+}
+
+function goToCheckout() {
+  //TODO: Retrieve products from local storage
+  const products = JSON.parse(localStorage.getItem('cart'))
+  //TODO: Check if there are any products in the cart
+  //if not return message 
+  if (!products) {
+    const {element: message} = new Element('h1', {
+      class: 'text-2xl m-20'
+    })
+    message.innerHTML = 'No products in cart!'
+    return message
+  }
+  //TODO: make a fetch request to server to checkout items
+  // fetch('')   
+  console.log('success') 
 }
 
 displayCards();

@@ -27,10 +27,10 @@
         echo '<script src="assets/js/slideshow.js"></script>';
         break;
       case $storeLink:
-        echo '<script type="module" src="assets/js/store.js"></script>';
+        echo '<script src="assets/js/dist/store_stripe.bundle.js"></script>';
         break;
       case $cartLink:
-        echo '<script src="assets/js/cart.js"></script>';
+        echo '<script src="assets/js/dist/cart.bundle.js"></script>';
         break;
       default:
         echo '';
